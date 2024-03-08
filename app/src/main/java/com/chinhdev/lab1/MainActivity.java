@@ -7,8 +7,12 @@ import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.Firebase;
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class MainActivity extends AppCompatActivity {
     Button btn_email, btn_phone;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
